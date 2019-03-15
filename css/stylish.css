@@ -1,0 +1,16 @@
+/* Navigationbar */
+
+  .nav-link, .navbar-brand{
+      color:#ffffff !important;
+      font-size: 17px;
+      padding-right:7px !important;
+      padding-left:7px !important;
+    }
+
+    .nav-link:hover, .active {
+      background:rgba(255, 255, 255, 0.1);
+      border-radius:5px;
+    }
+.wrapper{
+  background-color: #222222;
+}
