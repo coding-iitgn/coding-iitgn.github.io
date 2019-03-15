@@ -1,186 +1,351 @@
----
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
----
-
-
+<!doctype html>
 <html lang="en">
+
 <head>
   <!-- Theme Made By www.w3schools.com - No Copyright -->
-  <title>Bootstrap Theme Simply Me</title>
+  <title>Metis</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  <link href="footer_design.css" rel="stylesheet" type="text/css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <style>
-  body {
-      font: 20px Montserrat, sans-serif;
-      line-height: 1.8;
-      color: #f5f6f7;
-  }
-  p {font-size: 16px;}
-  .margin {margin-bottom: 45px;}
-  .bg-1 { 
-      background-color: #1abc9c; /* Green */
-      color: #ffffff;
-  }
-  .bg-2 { 
-      background-color: #474e5d; /* Dark Blue */
-      color: #ffffff;
-  }
-  .bg-3 { 
-      background-color: #ffffff; /* White */
-      color: #555555;
-  }
-  .bg-4 { 
-      color: #fff;
-  }
-  .container-fluid {
-      padding-top: 70px;
-      padding-bottom: 70px;
-  }
-  .navbar {
-      padding-top: 15px;
-      padding-bottom: 15px;
-      border: 0;
-      border-radius: 0;
-      margin-bottom: 0;
-      font-size: 12px;
-      letter-spacing: 5px;
-  }
-  .navbar-nav  li a:hover {
-      color: #1abc9c !important;
-  }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1,  maximum-scale=1.0, user-scalable=no">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="icon" type="image/png" href="images/code_energy_favicon.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif">
+  <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css" />
+  <!-- <link rel="stylesheet" href="aos-master/dist/aos.css"> -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.4/css/mdb.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/project_list.css">
+  <link rel="stylesheet" href="css/stylish.css">
+  <link rel="stylesheet" href="css/footer_design.css">
 </head>
+
 <body>
+  <!-- First Container -->
+  <div class="wrapper" id="front" style="height:700px;">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark  px-5 py-2 my-3 round fixed-top ml-auto mr-auto" style="border-radius:35px;background: rgba(22, 20, 20, 0.81);width:80%;">
 
-<!-- Navbar -->
-<nav class="navbar navbar-default">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#">Me</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">WHO</a></li>
-        <li><a href="#">WHAT</a></li>
-        <li><a href="#">WHERE</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+        <!-- Image and text -->
+        <a class="navbar-brand" href="#front" id="white_l2">
+          <img src="images/metis.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+          METIS
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-<!-- First Container -->
-<div class="container-fluid bg-1 text-center">
-  <h3 class="margin">Who Am I?</h3>
-  <img src="bird.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
-  <h3>I'm an adventurer</h3>
-</div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="text-align:right;">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#front" id="white_l">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#fog" id="white_l">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#About" id="white_l">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="white_l">Team</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
-<!-- Second Container -->
-<div class="container-fluid bg-2 text-center">
-  <h3 class="margin">What Am I?</h3>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-  <a href="#" class="btn btn-default btn-lg">
-    <span class="glyphicon glyphicon-search"></span> Search
-  </a>
-</div>
+      <div class="container">
+        <div class="container my-auto">
+          <div class="row">
+            <svg viewBox="0 0 960 300">
+              <symbol id="s-text">
+                <text text-anchor="middle" x="50%" y="80%">Metis</text>
+              </symbol>
 
-<div class="container-fluid bg-2 text-center">
-  <h3 class="margin">What Am I?</h3>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-  <a href="#" class="btn btn-default btn-lg">
-    <span class="glyphicon glyphicon-search"></span> Search
-  </a>
-</div>
-
-<!-- Third Container (Grid) -->
-<div class="container-fluid bg-3 text-center">    
-  <h3 class="margin">Where To Find Me?</h3><br>
-  <div class="row">
-    <div class="col-sm-4">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <img src="birds1.jpg" class="img-responsive margin" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-4"> 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <img src="birds2.jpg" class="img-responsive margin" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-4"> 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <img src="birds3.jpg" class="img-responsive margin" style="width:100%" alt="Image">
-    </div>
-  </div>
-</div>
-<!--
-<div class="container">
-  <div class="row">
-    <div class="col-lg-6">
-      This is column 1
-    </div>
-    <div class="col-lg-6">
-      This is column 2
-    </div>
-  </div>
-</div>
--->
-<!-- Footer -->
-<div class="container2">
-  <div class="row">
-    <div class="Images">
-      <div class="col-lg-6">
-        <img src="C:\Users\LENOVO\Documents\LaTeX\Images\Spider_Man_Rising.jpg" alt="Face 1">
-      </div>
-      <div class="col-lg-6">
-        <img src="C:\Users\LENOVO\Documents\LaTeX\Images\Cheesecake_and_Pudding.jpg" alt="Face 2">
-      </div>
-      <div class="col-lg-6">
-        <img src="C:\Users\LENOVO\Documents\LaTeX\Images\Cheesecake_and_Pudding.jpg" alt="Face 3">
-      </div>
-      <div class="col-lg-6">
-        <img src="C:\Users\LENOVO\Documents\LaTeX\Images\Cheesecake_and_Pudding.jpg" alt="Face 4">
+              <g class="g-ants">
+                <use xlink:href="#s-text" class="text-copy"></use>
+                <use xlink:href="#s-text" class="text-copy"></use>
+                <use xlink:href="#s-text" class="text-copy"></use>
+                <use xlink:href="#s-text" class="text-copy"></use>
+                <use xlink:href="#s-text" class="text-copy"></use>
+              </g>
+            </svg>
+          </div>
+        </div>
+        <p class="lead display-5 text-center">The Code-Blooded</p>
       </div>
     </div>
   </div>
-</div>
-<footer class ="fdes">
-  <div class="container">
-    <h1>Metis Website</h1>
-    <div class="row">
-      <div class="col-lg-2">
-        About us
-        <li class="about">Something about us</li>
+  </div>
+
+  </div>
+  <!-- Projects -->
+  <div class="wrap" id="fog">
+    <h1 class="project_heading display-3" style="font-family:'PT Serif', serif;">Our Projects</h1>
+    <div class="projects">
+      <div>
+        <div class="card text-dark plink">
+          <a href="https://github.com/coding-iitgn/GNius" target="_blank"></a>
+          <img class="card-img" src="images/GNius.png" height="190px">
+          <div class="card-body">
+            <h4 class="card-title" style="font-weight: bold;font-family: 'PT Serif', serif;">GNius</h4>
+            <p class="card-text" style="margin-bottom: 15%">The portal was made to accumulate every feature that the institute student needs, all in one place. The problems that a hostel student frequently encountered was brought together.</p>
+            <!-- Place this tag where you want the button to render. -->
+            <a class="github-button" href="https://github.com/coding-iitgn/GNius" data-size="large" data-show-count="true" aria-label="Star coding-iitgn/GNius on GitHub">Star</a>
+          </div>
+        </div>
       </div>
-      <div class="col-lg-2">
-        Feedback
-        <li class="about">Any kind of feedback is welcome!<br>
-        <a>feedback.com</a>
-        </li>
-        <p></p>
+      <div>
+        <div class="card text-dark plink">
+          <a href="https://github.com/coding-iitgn/ChromeDino" target="_blank"></a>
+          <img class="card-img" src="images/chrome-dino.png" height="190px"> <!-- Image credits: https://www.androidpolice.com/wp-content/uploads/2018/11/chrome-dino-hero.png -->
+          <div class="card-body">
+            <h4 class="card-title" style="font-weight: bold;font-family: 'PT Serif', serif;">ChromeDino</h4>
+            <p class="card-text" style="margin-bottom: 70px">Using the Webcam of your System we can control Google Chrome Dinosaur Game that shows up in offline Mode.</p>
+            <!-- Place this tag where you want the button to render. -->
+            <a class="github-button" href="https://github.com/coding-iitgn/ChromeDino" data-size="large" data-show-count="true" aria-label="Star coding-iitgn/ChromeDino on GitHub">Star</a>
+          </div>
+        </div>
       </div>
-      <div class="col-lg-3">
-        Contact Information-<br>
-          <li>Email: xyz@gmail.com</li>
-          <li>Phone: 9999999999</li>
-          <li>Fax: -----</li>
+      <div>
+        <div class="card text-dark plink">
+          <a href="https://github.com/coding-iitgn/Real-Time-Facial-Emotion-Recogniser" target="_blank"></a>
+          <img class="card-img" src="images/emotion_AI.jpg" height="190px">
+          <!-- Image credits: https://cdn.technologynetworks.com/tn/images/thumbs/jpeg/640_360/emotion-recognition-ai-m-unveiled-at-conference-rivaling-industry-leaders-in-accuracy-312824.jpg?v=9953972 -->
+          <div class="card-body">
+            <h4 class="card-title" style="font-weight: bold;font-family: 'PT Serif', serif;">Real Time Facial Emotion Recogniser</h4>
+            <p class="card-text" style="margin-bottom: 40px">RTFER predicts the emotion of the face and displays the respective emoji in the place of the face on the live video.</p>
+            <!-- Place this tag where you want the button to render. -->
+            <a class="github-button" href="https://github.com/coding-iitgn/Real-Time-Facial-Emotion-Recogniser" data-size="large" data-show-count="true" aria-label="Star coding-iitgn/Real-Time-Facial-Emotion-Recogniser on GitHub">Star</a>
+          </div>
+        </div>
       </div>
-      <div class="col-lg-2">
-        Contact Us
-        <li><a href="https://en.wikipedia.org/wiki/Wikipedia:Contact_us" target="_blank" class="left_aligned">Contact_us.in</a></li>
+      <div>
+        <div class="card text-dark plink">
+          <a href="https://github.com/coding-iitgn/Ask-Questions" target="_blank"></a>
+          <img class="card-img" src="images/Ask_questions.png" height="190px">
+          <div class="card-body">
+            <h4 class="card-title" style="font-weight: bold;font-family: 'PT Serif', serif;">Ask Questions</h4>
+            <p class="card-text" style="margin-bottom: 95px">This is a fully functional Question and Answer website built using django</p>
+            <!-- Place this tag where you want the button to render. -->
+            <a class="github-button" href="https://github.com/coding-iitgn/Ask-Questions" data-size="large" data-show-count="true" aria-label="Star coding-iitgn/Ask-Questions on GitHub">Star</a>
+          </div>
+        </div>
       </div>
+      <div>
+        <div class="card text-dark">
+          <img class="card-img" src="images/sudoku.jpg" height="190px">
+          <div class="card-body">
+            <h4 class="card-title" style="font-weight: bold;font-family: 'PT Serif', serif;">Sudoku Solver</h4>
+            <p class="card-text" style="margin-bottom: 95px">A solver integrated with image processing. Given a Sudoku, the program will be able to complete the Sudoku matrix</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="card text-dark">
+          <img class="card-img" src="images/food_delivery.jpg" height="190px">
+          <div class="card-body">
+            <h4 class="card-title" style="font-weight: bold;font-family: 'PT Serif', serif;">Food IN</h4>
+            <p class="card-text" style="margin-bottom: 95px">A user friendly food ordering app. An app which lets you order food, from your room, to the dorm canteens and saves your time by reducing the waiting time for your order.</p>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
-</footer>
+  <div id="About"></div>
+  <div class="About_Us_Image" style="padding-top: 2.5%;padding-bottom: 5%;margin-top: 5%;margin-bottom: 3%">
+    <div class="About_Us">
+    <div class="container">
+      <h1 style="padding-bottom: 3%"><b>About Us</b></h1>
+      <div class="row">
+        <div class="col-lg-6">
+          <h2><strong>Our Goal</strong></h2>
+          <p>We, the Coding Club "METIS" at IITGN aim at spreading knowledge related to computer programming to the students. Along the way, we see ourselves developing many websites and applications that will be useful to our community, and beyond.</p>
+        </div>
+        <div class="col-lg-6">
+          <h2><strong>Our Process</Strong></h2>
+          <p>We arrange weekly workshops focusing on basic programming languages like JAVA and designing languages like HTML. We actively participate in challenges like the overnight Hackathon competition. Through these we strive to inculcate a coding culture in our community and the "Code-Blooded" spirit among those who are part of it.</p>
+        </div>
+      </div>
+      </div>
+      </div>
+    </div>
+    <br>
+    
+    <!--
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          This is column 1
+        </div>
+        <div class="col-lg-6">
+          This is column 2
+        </div>
+      </div>
+    </div>
+    -->
+    <!-- Footer -->
+    <!-- Section: Team v.1 -->
+    <section class="team-section text-center my-5">
+    
+        <!-- Section heading -->
+        <h2 class="h1-responsive font-weight-bold my-5 black-text">Website Developers</h2>
+        <!-- Section description -->
+      
+        <!-- Grid row -->
+        <div class="row" style="width: 100%">
+      
+          <!-- Grid column -->
+          <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+            <div class="avatar mx-auto">
+              <img src="images/Dishank_MWebsite.jpg" class="rounded-circle z-depth-1" height=230px width=240px
+                alt="Sample avatar">
+            </div>
+            <h5 class="font-weight-bold mt-4 mb-3 black-text">Dishank Goel</h5>
+            <p class="text-uppercase blue-text">
+              <strong>CSE Undergraduate</strong>
+            </p>
+            <p class="grey-text">Studies at IITGn</p>
+            <ul class="list-unstyled mb-0">
+              <a class="p-2 fa-lg fb-ic">
+                <i class="fab fa-linkedin blue-text"> </i>
+              </a>
+              <a class="p-2 fa-lg tw-ic">
+                <i class="fab fa-github blue-text"> </i>
+              </a>
+              <a class="p-2 fa-lg ins-ic">
+                <i class="far fa-envelope blue-text"> </i>
+              </a>
+            </ul>
+          </div>
+          <!-- Grid column -->
+      
+          <!-- Grid column -->
+          <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+            <div class="avatar mx-auto">
+              <img src="images/Sachin_MWebsite.jpg" class="rounded-circle z-depth-1" height=230px width=240px
+                alt="Sample avatar">
+            </div>
+            <h5 class="font-weight-bold mt-4 mb-3 black-text">Sachin Yadav</h5>
+            <p class="text-uppercase blue-text">
+              <strong>CSE Undergraduate</strong>
+            </p>
+            <p class="grey-text">Studies at IITGn</p>
+            <ul class="list-unstyled mb-0">
+              <a class="p-2 fa-lg fb-ic">
+                <i class="fab fa-linkedin blue-text"> </i>
+              </a>
+              <a class="p-2 fa-lg ins-ic">
+                <i class="fab fa-github blue-text"> </i>
+              </a>
+                <a class="p-2 fa-lg ins-ic">
+                    <i class="far fa-envelope blue-text"> </i>
+                  </a>
+            </ul>
+          </div>
+          <!-- Grid column -->
+      
+          <!-- Grid column -->
+          <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+                    <div class="avatar mx-auto">
+              <img src="images/Website_My_Photo_2.jpg" class="rounded-circle z-depth-1" height=230px width=240px
+                alt="Sample avatar">
+            </div>
+            <h5 class="font-weight-bold mt-4 mb-3 black-text">Amey Kulkarni</h5>
+            <p class="text-uppercase blue-text">
+              <strong>CSE Undergraduate</strong>
+            </p>
+            <p class="grey-text">Studies at IITGn</p>
+            <ul class="list-unstyled mb-0">
+              <a class="p-2 fa-lg ins-ic" href="https://github.com/Ameya27" target="_blank">
+                <i class="fab fa-github blue-text"> </i>
+              </a>
+              <a class="p-2 fa-lg ins-ic" href="mailto:amey.kulkarni@iitgn.ac.in?Subject=Hello%20again" target="_blank">
+                <i class="far fa-envelope blue-text"> </i>
+              </a>
+            </ul>
+          </div>
+          <!-- Grid column -->
+      
+          <!-- Grid column -->
+          
+        </div>
+        <!-- Grid row -->
+      
+      </section>
+      <!-- Section: Team v.1 -->
+    
+    <footer class ="fdes">
+        <div class="Container_Ref">
+            <h1 class="FHead">Metis Website</h1>
+            <div class="Row_Ref1">
+      <div class="container">
+      <div class="row">
+    
+           <div class=" col-lg-3">
+            About us
+            <li class="about">Something about us</li>
+          </div>
+          <div class=" col-lg-3">
+            Feedback
+            <li class="about">Any kind of feedback is welcome!<br>
+            <a>coding@iitgn.ac.in</a>
+            </li>
+            <p></p>
+          </div>
+          <div class=" col-lg-3">
+            Contact Information-<br>
+              <li>Email: coding@iitgn.ac.in</li>
+              <li>Phone: +91 - 8412874000</li>
+          </div>
+          <div class="col-lg-3">
+            Contact Us
+            <li><a href="https://www.facebook.com/metisiitgn/" target="_blank" class="left_aligned">Facebook</a></li>
+          </div>
+        </div>
+        </div>
+        </div>
+      </div>
+      </div>
+    </footer>
+    
+    
 
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+  <!-- <script type="text/javascript" src="code.jquery.com/jquery-1.11.0.min.js"></script> -->
+  <!-- <script type="text/javascript" src="code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+  <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
+  <!-- Place this tag in your head or just before your close body tag. -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <!-- <script src="vanta-master/vendor/three.r92.min.js"></script>
+<script src="vanta-master/dist/vanta.fog.min.js"></script>
+<script>
+VANTA.FOG({
+  el: "#fog",
+  highlightColor: 0xff5a00,
+  midtoneColor: 0xff,
+  lowlightColor: 0x7800ff
+});
+</script> -->
+  <!-- <script src="aos-master/dist/aos.js"></script> -->
+  <script src="vanta-master/vendor/three.r92.min.js"></script>
+  <script src="vanta-master/dist/vanta.dots.min.js"></script>
+  <script>
+    VANTA.DOTS({
+      el: "#front",
+      color: 0xbd951b,
+      color2: 0x5194cc,
+      size: 6.10,
+      spacing: 26.00
+    });
+  </script>
+  <script src="scripts/project_file.js"></script>
+  <script src="scripts/jscript.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
+
 </html>
