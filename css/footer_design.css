@@ -1,0 +1,118 @@
+.fdes {
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+/*
+#box {
+    background:url("https://previews.123rf.com/images/phyzick/phyzick1704/phyzick170400064/76499043-bright-fresh-spring-halftone-gradient-flyers-templates-for-web-header-or-footer-background-fantasy-s.jpg");
+    background-color: black;
+    background-size: cover;
+    height: 200px;
+    color: yellow;
+    width: 100%;
+}
+
+#box li{
+    margin-top: 10px;
+    width:100 px;
+    margin-left: 100px; 
+    color: yellow;
+}
+
+#box .left_aligned {
+    margin-top: 10px;
+    width:100 px;
+    margin-left: 100px;
+}
+
+
+#box .right_aligned {
+    margin-left: 200 px;
+    margin-top: 10px;
+    width: 10 px;
+    position: relative;
+    color: red;
+}
+*/
+
+.About_Us_Image{
+    background-image: url("Images\ Workspace.jpg");
+}
+
+.About_Us{
+    background-color:black;
+    text-align: center;
+    padding-bottom=10px;
+}
+
+.About_Us .col-lg-6 h1{
+    align: center;
+    text-align:center;
+    color: white;
+    font-weight:bold;
+}
+
+.About_Us .col-lg-6 p{
+    padding-bottom:10px;
+    text-align:left;
+
+}
+
+.container2 {
+text-align:center;
+}
+
+.container2 .Row_Ref2   {
+    color: black;
+    align: center;
+}
+
+
+
+ .Images .col-lg-4{
+    align:center;
+    overflow: hidden;
+    text-align:center;
+    margin-bottom:50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Fhead h1 {
+    margin-bottom: 50px;
+    color: white;
+    opacity: .85;
+    text-align: center;
+}
+.about {
+    font-size: 15px;
+}
+
+ .about a {
+    font-size:20px;
+}
+ .Container_Ref .Row_Ref1 {
+    color: white;
+    opacity: .8;
+    margin-bottom: 15px;
+    margin-left: 100px;
+}
+ .Container_Ref .Row_Ref1 .col-lg-2{
+    border-left: 2px dotted white;
+    margin: 10px;
+}
+  .Container_Ref .Row_Ref1 .col-lg-3{
+    border-left: 2px dotted white;
+    margin: 10px;
+}
+
+
+
+
+ .Container_Ref .Row_Ref1 li{
+    list-style-type: none;
+    opacity: 0.5;
+}
+img{
+    border-radius: 100%;
+}
