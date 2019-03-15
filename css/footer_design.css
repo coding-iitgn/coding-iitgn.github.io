@@ -37,13 +37,15 @@
 */
 
 .About_Us_Image{
-    background-image: url("Images\ Workspace.jpg");
+    background-image: url("Images\Work_Space.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color:black;
 }
 
 .About_Us{
-    background-color:black;
     text-align: center;
-    padding-bottom=10px;
+    color:white;
 }
 
 .About_Us .col-lg-6 h1{
@@ -54,8 +56,11 @@
 }
 
 .About_Us .col-lg-6 p{
+    width: 100%;
     padding-bottom:10px;
+    padding-left: 10%;
     text-align:left;
+    align: right;
 
 }
 
@@ -68,22 +73,23 @@ text-align:center;
     align: center;
 }
 
-
-
- .Images .col-lg-4{
-    align:center;
-    overflow: hidden;
-    text-align:center;
-    margin-bottom:50px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.Fhead h1 {
-    margin-bottom: 50px;
-    color: white;
-    opacity: .85;
+.card {
     text-align: center;
 }
+
+ .card-title{
+    color:black;
+    align:center;
+    text-align:center;
+}
+
+.card-text{
+    color:black;
+    align:center;
+    text-align:center;
+}
+
+
 .about {
     font-size: 15px;
 }
@@ -95,24 +101,22 @@ text-align:center;
     color: white;
     opacity: .8;
     margin-bottom: 15px;
-    margin-left: 100px;
 }
- .Container_Ref .Row_Ref1 .col-lg-2{
-    border-left: 2px dotted white;
-    margin: 10px;
-}
+
   .Container_Ref .Row_Ref1 .col-lg-3{
     border-left: 2px dotted white;
-    margin: 10px;
+    margin-bottom: 20px
 }
+.FHead  {
+    margin-top:25px; 
+    margin-bottom: 25px;
+    color: white;
+    opacity: .85;
+    text-align: center;
 
-
-
+}
 
  .Container_Ref .Row_Ref1 li{
     list-style-type: none;
     opacity: 0.5;
-}
-img{
-    border-radius: 100%;
 }
