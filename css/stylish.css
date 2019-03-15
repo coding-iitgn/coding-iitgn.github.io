@@ -64,3 +64,31 @@ svg {
 @keyframes stroke-offset{
 	100% {stroke-dashoffset: -35%;}
 }
+
+/*Scrollbar*/
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track{
+  border-radius: 20px;
+  background:transparent;
+}
+
+::-webkit-scrollbar-track-piece{
+background:transparent;
+}
+
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to top right, #ff9900 39%, #6699ff 71%);
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover{
+  background: linear-gradient(to top right, #ff9900 39%, #6699ff 71%)!important;
+  border-radius: 20px!important;
+}
