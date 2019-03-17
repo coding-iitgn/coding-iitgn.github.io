@@ -1,0 +1,5 @@
+#rendered site while using jekyll build
+_site/
+
+#system files
+.DS_Store
